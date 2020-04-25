@@ -252,7 +252,7 @@ public class GuiResearchBrowser extends GuiScreen {
             ResearchCategoryList rcl = ResearchCategories.getResearchList(category);
             if (!category.equals("ELDRITCH")
                     || ResearchManager.isResearchComplete(this.player, "ELDRITCHMINOR")) {
-                int mposx = mx - (var4 - 24 + (var15 ? 280 : 0));
+                int mposx = mx - (var4 - 24 + (var15 ? 560 : 0));
                 int mposy = my - (var5 + count * 24);
                 if (mposx >= 0 && mposx < 24 && mposy >= 0 && mposy < 24) {
                     this.fontRendererObj.drawStringWithShadow(ResearchCategories.getCategoryName(category), mx,
